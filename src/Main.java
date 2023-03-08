@@ -45,15 +45,12 @@ public class Main { ;
 
     public static void task2 () {
         System.out.println("Задача 2");
-        String firstName = "Ivan";
-        String middleName = "Ivanov";
-        String fullName = "Ivanovich";
+        String firstName = "ivan";
+        String middleName = "ivanov";
+        String fullName = "ivanovich";
         fullName = firstName + " " + middleName +  " " + fullName;
-        char i = fullName.charAt(0);
-        if (i == 'i') {
-            String fullNameI = fullName.toUpperCase();
-        }
-        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName);
+
+        System.out.println("Данные ФИО сотрудника для заполнения отчета - " + fullName.toUpperCase());
 
     }
 
